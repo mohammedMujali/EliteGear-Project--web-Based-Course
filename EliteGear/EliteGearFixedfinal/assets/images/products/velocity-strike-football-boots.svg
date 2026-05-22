@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10223d"/>
+      <stop offset="0.55" stop-color="#0A1628"/>
+      <stop offset="1" stop-color="#06101f"/>
+    </linearGradient>
+    <linearGradient id="shoe" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="0.45" stop-color="#9fb2c7"/>
+      <stop offset="1" stop-color="#1e3a52"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <circle cx="640" cy="150" r="95" fill="#00E676" opacity="0.12"/>
+  <circle cx="136" cy="642" r="145" fill="#00E676" opacity="0.08"/>
+  <path d="M95 572c165-70 330-94 610-78" fill="none" stroke="#00E676" stroke-width="7" opacity="0.45"/>
+  <path d="M171 470c72-46 123-119 158-191 25 34 74 88 159 112 79 22 154 18 206 40 38 17 52 62 22 94-35 38-143 51-275 40-100-9-197-9-285 15-34 9-62-13-65-48-2-26 29-46 80-62Z" fill="url(#shoe)" stroke="#F8FAFC" stroke-width="9"/>
+  <path d="M316 302c75 102 184 133 337 138" fill="none" stroke="#00E676" stroke-width="17" stroke-linecap="round" filter="url(#glow)"/>
+  <path d="M251 413c94 19 216 68 337 68" fill="none" stroke="#0A1628" stroke-width="15" stroke-linecap="round" opacity="0.75"/>
+  <path d="M291 376l-54 34M348 398l-52 34M409 421l-52 34" stroke="#00E676" stroke-width="12" stroke-linecap="round"/>
+  <g fill="#00E676">
+    <path d="M223 596l31 58h-40l-25-48z"/>
+    <path d="M354 584l26 66h-43l-18-56z"/>
+    <path d="M498 587l20 67h-43l-14-57z"/>
+    <path d="M630 576l16 54h-42l-9-44z"/>
+  </g>
+  <circle cx="617" cy="611" r="48" fill="none" stroke="#F8FAFC" stroke-width="8"/>
+  <path d="M617 563v96M569 611h96M585 581l64 64M649 581l-64 64" stroke="#F8FAFC" stroke-width="5" opacity="0.75"/>
+</svg>

@@ -1,0 +1,48 @@
+[
+    {
+        "id": "ord_1778958753811",
+        "created_date": "2026-05-16T19:12:33.811Z",
+        "user_email": "abodeosama.199@gmail.com",
+        "user_name": "abdullah abubshait",
+        "total_amount": 379,
+        "status": "confirmed",
+        "payment_status": "paid",
+        "payment_method": "card",
+        "payment_snapshot": "{\"cardholder\":\"Abdulah abubshait\",\"brand\":\"Visa\",\"last4\":\"0709\",\"expiry\":\"01/31\"}",
+        "shipping_address": "azhar bin qais",
+        "city": "dammam",
+        "phone": "+966 551814007",
+        "notes": "",
+        "items_snapshot": "[{\"id\":\"prod_adidas_predator_boots\",\"name\":\"Adidas Predator League Football Boots\",\"quantity\":1,\"price\":379,\"selected_size\":\"40\",\"selected_color\":\"Black\"}]"
+    },
+    {
+        "id": "ord_1778955656242",
+        "created_date": "2026-05-16T18:20:56Z",
+        "user_email": "abodeosama.199@gmail.com",
+        "user_name": "abdullah abubshait",
+        "total_amount": 379,
+        "status": "delivered",
+        "payment_status": "paid",
+        "payment_method": "card",
+        "payment_snapshot": "{\"cardholder\":\"Abdulah abubshait\",\"brand\":\"Visa\",\"last4\":\"0709\",\"expiry\":\"01/31\"}",
+        "shipping_address": "azhar bin qais",
+        "phone": "+966551814007",
+        "notes": "",
+        "items_snapshot": "[{\"id\":\"prod_adidas_predator_boots\",\"name\":\"Adidas Predator League Football Boots\",\"quantity\":1,\"price\":379,\"selected_size\":\"40\",\"selected_color\":\"Black\"}]"
+    },
+    {
+        "id": "ord_demo_1001",
+        "created_date": "2026-05-13T13:30:00Z",
+        "user_email": "customer@elitegear.com",
+        "user_name": "Demo Customer",
+        "total_amount": 539.49,
+        "status": "shipped",
+        "payment_status": "paid",
+        "payment_method": "card",
+        "payment_snapshot": "{\"cardholder\":\"Demo Customer\",\"brand\":\"Visa\",\"last4\":\"4242\",\"expiry\":\"12/30\"}",
+        "shipping_address": "King Fahd Road, Riyadh",
+        "phone": "+966 5X XXX XXXX",
+        "notes": "Leave with reception.",
+        "items_snapshot": "[{\"id\":\"prod_velocity_boots\",\"name\":\"Velocity Strike Football Boots\",\"quantity\":1,\"price\":314.99,\"selected_size\":\"\",\"selected_color\":\"\"},{\"id\":\"prod_court_elite_ball\",\"name\":\"Court Elite Basketball\",\"quantity\":1,\"price\":189.5,\"selected_size\":\"\",\"selected_color\":\"\"}]"
+    }
+]

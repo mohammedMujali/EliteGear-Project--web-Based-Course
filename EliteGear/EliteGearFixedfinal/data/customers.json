@@ -1,0 +1,28 @@
+[
+    {
+        "id": "cust_1778957028196",
+        "full_name": "abdullah abubshait",
+        "email": "abodeosama.199@gmail.com",
+        "password": "Okafalabode123",
+        "phone": "+966 551814007",
+        "address": "azhar bin qais",
+        "city": "dammam",
+        "role": "customer",
+        "is_active": true,
+        "total_orders": 1,
+        "total_spent": 379
+    },
+    {
+        "id": "cust_demo",
+        "full_name": "Demo Customer",
+        "email": "customer@elitegear.com",
+        "password": "customer123",
+        "phone": "+966 5X XXX XXXX",
+        "address": "King Fahd Road, Riyadh",
+        "city": "Riyadh",
+        "role": "customer",
+        "is_active": true,
+        "total_orders": 1,
+        "total_spent": 539.49
+    }
+]

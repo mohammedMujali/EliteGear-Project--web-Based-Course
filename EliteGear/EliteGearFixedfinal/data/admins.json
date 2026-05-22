@@ -1,0 +1,11 @@
+[
+  {
+    "id": "admin_demo",
+    "user_email": "admin@elitegear.com",
+    "user_name": "EliteGear Admin",
+    "password": "admin123",
+    "permissions": "super_admin",
+    "is_active": true,
+    "notes": "Localhost demo administrator"
+  }
+]
